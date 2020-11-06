@@ -15,6 +15,9 @@ function Nav() {
 				<li>
 					<Link to='/shop'>Shop</Link>
 				</li>
+				<li>
+					<Link to='/products'>Products</Link>
+				</li>
 			</ul>
 		</nav>
 	);

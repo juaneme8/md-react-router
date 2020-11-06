@@ -16,7 +16,7 @@ function Shop() {
 	return (
 		<div>
 			<h1>Shop Page</h1>
-			{arr
+			{arr.length > 0
 				? arr.map(item => (
 						<li key={item.itemId}>
 							<Link to={`/shop/${item.itemId}`}>{item.item.name}</Link>
