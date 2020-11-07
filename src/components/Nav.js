@@ -7,16 +7,16 @@ function Nav() {
 			<h3>Logo</h3>
 			<ul>
 				<li>
-					<Link to='/'>Home</Link>
+					<NavLink to='/'>Home</NavLink>
 				</li>
 				<li>
 					<NavLink to='/about'>About</NavLink>
 				</li>
 				<li>
-					<Link to='/shop'>Shop</Link>
+					<NavLink to='/shop'>Shop</NavLink>
 				</li>
 				<li>
-					<Link to='/products'>Products</Link>
+					<NavLink to='/products'>Products</NavLink>
 				</li>
 			</ul>
 		</nav>
