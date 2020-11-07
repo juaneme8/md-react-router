@@ -4,7 +4,7 @@ function HomeButton() {
 	let history = useHistory();
 
 	function handleClick() {
-		history.push('/');
+		history.replace('/');
 	}
 
 	return (
